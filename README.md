@@ -14,6 +14,8 @@ and in
 the the fantable was adjusted to an reasonalble one for machine learning tasks.
 The original build and install from source was adjusted for the tensorbook with preinstalled lambda stack.
 
+![Alt text](src/data/fantable.jpg?raw=true "Fan Table")
+
 # TuxedoFanControl
 
 # Induction
