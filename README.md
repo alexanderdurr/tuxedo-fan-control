@@ -84,3 +84,26 @@ To install, for instance, on Ubuntu use `gdebi` provided by `gdebi-core` and run
 sudo apt install gdebi-core
 sudo gdebi output/build/*.deb
 ```
+
+In case you want to uninstall the whole thing, run
+```sh
+sudo apt-get purge tuxedofancontrol
+```
+
+### Useful files
+Log files (e.g. for reading sensor data):
+```sh
+cd /var/log/tuxedo-fan/tuxedo-fan-daemon.log
+```
+Daemon service:
+```sh
+cd /etc/systemd/system/tuxedofancontrol.service
+```
+Useful to restart the daemon:
+```sh
+sudo systemctl restart tuxedofancontrol.service
+```
+To see if the daemon is running fine:
+```sh
+sudo systemctl status tuxedofancontrol.service
+```
