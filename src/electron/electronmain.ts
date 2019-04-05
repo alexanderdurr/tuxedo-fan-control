@@ -21,7 +21,7 @@ if(!fs.existsSync(path.dirname(logFilePath)))
 require("./common/environment").Environment.setEnvironmentVariable("isUserRoot", isUserRoot, "all");
 require("./common/environment").Environment.setEnvironmentVariable("appPath", process.execPath, "all");
 require("./common/environment").Environment.setEnvironmentVariable("vendorcheck", true, "all");
-(<any>global).vendorcheck = true;
+(<any>global).vendorcheck = false;
 
 let publicOptions: Array<CommandlineOption> = [
     {
