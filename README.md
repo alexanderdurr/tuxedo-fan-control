@@ -1,5 +1,5 @@
 ## Adapted Fan Control for a Tensorbook
-A Tensorbook is basically a Clevo PEx95ER. You can make sure you have one with:
+A Tensorbook is basically a Clevo P95xER. You can make sure you have one with:
 ```
 sudo dmidecode | grep 'Product Name'
 ```
